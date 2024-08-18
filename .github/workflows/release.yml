@@ -6,7 +6,7 @@ on:
     types: [completed]
 
 env:
-  PACKAGE_NAME: github.com/gonobo/jsonapi-aws-dynamodb
+  PACKAGE_NAME: github.com/gonobo/jsonapi/v1/extra/dynamodb
 
 jobs:
   on-success:

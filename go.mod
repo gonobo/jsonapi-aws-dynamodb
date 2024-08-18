@@ -1,4 +1,4 @@
-module github.com/gonobo/jsonapi-aws-dynamodb
+module github.com/gonobo/jsonapi/v1/extra/dynamodb
 
 go 1.22.3
 
