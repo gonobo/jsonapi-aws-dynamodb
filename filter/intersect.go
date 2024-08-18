@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression"
-	"github.com/gonobo/jsonapi/v1/query"
-	"github.com/gonobo/jsonapi/v1/query/filter"
+	"github.com/gonobo/jsonapi/v2/query"
+	"github.com/gonobo/jsonapi/v2/query/filter"
 )
 
 type IntersectsListFilter struct {
