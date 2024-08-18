@@ -41,13 +41,13 @@ func (m *Marshaler) EvaluateOrFilter(e *query.OrFilter) error {
 	return errors.Join(lefterr, righterr)
 }
 
-func (d *Marshaler) EvaluateNotFilter(e *query.NotFilter) error {
+func (m *Marshaler) EvaluateNotFilter(e *query.NotFilter) error {
 	var value Marshaler
-	value.HashKey = d.HashKey
+	value.HashKey = m.HashKey
 
 	err := query.EvaluateFilter(&value, e.Expression)
 
-	d.builder = expression.Not(value.builder)
+	m.builder = expression.Not(value.builder)
 	return err
 }
 

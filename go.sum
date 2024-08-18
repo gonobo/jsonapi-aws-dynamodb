@@ -21,8 +21,6 @@ github.com/aws/smithy-go v1.20.1/go.mod h1:krry+ya/rV9RDcV/Q16kpu6ypI4K2czasz0NC
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/gonobo/jsonapi/v2 v2.0.0-20240818221955-56bef91270fe h1:4cWo+3Wcd4q5fewM5CnPZKOJpoxMZ4XU3ash6Rxwwyg=
-github.com/gonobo/jsonapi/v2 v2.0.0-20240818221955-56bef91270fe/go.mod h1:+LnQIQ6lsmaYLAljX/+TKDX6i3TQup8K7O5MLs9ylQQ=
 github.com/gonobo/jsonapi/v2 v2.0.0 h1:watK4l2dkhuaFyjcfvnIGXu7hQvffTiGqHpBOaXBzR0=
 github.com/gonobo/jsonapi/v2 v2.0.0/go.mod h1:+LnQIQ6lsmaYLAljX/+TKDX6i3TQup8K7O5MLs9ylQQ=
 github.com/gonobo/validator v0.0.6 h1:Ppv8yzEkZwkcsa/9u8oMuve34s341XD5N+crnZFGWTQ=
