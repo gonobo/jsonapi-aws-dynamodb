@@ -31,7 +31,7 @@ type Putter interface {
 // that allows the client to retrieve and store page records to a dynamodb table.
 type PaginationKeyProvider interface {
 	// GenerateCursor generates a unique string that can be used by jsonapi clients
-	// for page.
+	// for pagination.
 	GenerateCursor() string
 	// GetPaginationKeyInput returns a DynamoDB GetItemInput struct that must contain
 	// the following fields:
