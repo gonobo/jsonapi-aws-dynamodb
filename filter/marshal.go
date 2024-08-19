@@ -17,6 +17,10 @@ func NewFilterMarshaler(hashKey string) *Marshaler {
 	return &Marshaler{HashKey: hashKey}
 }
 
+func (m Marshaler) Condition() expression.ConditionBuilder {
+	return m.builder
+}
+
 func (m *Marshaler) EvaluateAndFilter(e *query.AndFilter) error {
 	var left, right Marshaler
 	left.HashKey = m.HashKey
